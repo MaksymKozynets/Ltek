@@ -7,31 +7,94 @@
 </head>
 <body>
     <header>
-         <img src="img/ltek_green.jpg" alt="logo ltek">
+         <img src="img/lteklogo.png" alt="logo ltek">
          <nav>
              <a href="#about_us">Про нас</a> 
-             <a href="#">Реалізовані проекти</a> 
-             <a href="#">Контакти</a> 
+             <a href="#projects">Реалізовані проекти</a> 
+             <a href="#contacts">Контакти</a> 
          </nav>
-         <img src="img/teplostancija.jpg" alt="теплостанція">
-         <div class="block1">
-             <h1>Альтернативна теплова енергетика</h1>
+         <div class="baner">
+             <img src="img/teplostancija.jpg" alt="теплостанція">
+
+             <h2>Альтернативна теплова енергетика</h2>
              <p>Енергетична незалежність від природнього газу</p>
+             <i>
+             Ми раді вітати Вас на сайті ТОВ "Львівська теплоенергетична компанія". Тут ви можете дізнатись актуальну інформацію про роботу компанії, 
+             а також надіслати нам пропозицію чи зауваження, яке ми обов'язково врахуємо в своїй роботі.
+             Колектив нашої компанії докладає всіх зусиль, щоб наші споживачі вчасно були забезпечені теплом та гарячою водою.
+             КолективТОВ "Львівська теплоенергетична компанія"
+             </i>
          </div>    
     </header>
     <main>
         <div class="about us">
-            <img src="img/banerAbUs.jpg" alt="Про нас">
+            <img src="img/banerabus.jpg" alt="про нас">
             <h2 id="about_us">Про компанію</h2>
             <p>
-              Колектив нашої компанії докладає всіх зусиль, щоб наші споживачі вчасно були забезпечені теплом та гарячою водою. Нехай в ваших оселях завжди буде затишно і комфортно.
+                ТОВ «Львівська теплоенергетична компанія» заснована 5 квітня 2012 року. 
+                Компанія отримала усі необхідні ліцензії на виробництво, транспортування та постачання теплової енергії. 
+                У 2014 році перемогла у конкурсі Львівської обласної ради по заміщенню природного газу в бюджетних установах.
             </p>
             <form action="aboutus.html">
                 <button>Дізнатись більше</button>
             </form>
         </div>
+        <div class="projects">
+        <h2 id="projects">Реалізовані проекти</h2>
+            <div class="sokilnyky">
+            <img src="img/sokilnyky.jpg" alt="котельня в сокільниках">
+            <h2>КЗ ЛОР ЛОШВД</h2>
+            <p>Твердопаливна котельня у с. Сокільники</p>
+            <form action="sokilnyky.html">
+                <button>Дізнатись більше</button>
+            </form>    
+            </div>
+            <div class="boryslav">
+            <img src="img/kotelnaboryslav.jpg" alt="котельня в бориславі">
+            <h2>КЗ ЛОР Бориславська ЗСШ І-ІІІ ступенів</h2>
+            <p>Твердопаливна котельня в м. Борислав</p>
+            <form action="boryslav.html">
+                <button>Дізнатись більше</button>
+            </form> 
+            </div>
+        </div>
+        <div class="contacts">
+            <!---Contacts-->
+            <div>
+                 <h2 id="contacts">Контакти</h2>
+                 <p>Якщо у Вас виникли запитання або пропозиції, ми завжди раді Вам допомогти</p>
+                 <h2>Адреса</h2>
+                 <p>79035, м. Львів, вул. Зелена, 149, корпус 4</p>
+                 <h2>Зв'язок</h2>
+                 <p>+380 32 297 11 47 lvivtekom@gmail.com</p>
+            </div>
+            <!--Map-->
+            <div></div>
+            <!--Form-->
+            <div>
+            <label>Ваше повне ім'я*:
+                    <input type="text" placeholder="Ваше ім'я" name="user name" required>
+                </label><br> 
+                <label>Ваш номер телефону*:
+                    <input type="text" placeholder="Ваш номер телефону" name="user phone number" required>
+                </label><br>   
+                <label>Ваш Email*:
+                    <input type="email" placeholder="Ваш Email" name="user email" required>
+                </label><br>
+                <label>Ваше повідомлення:
+                    <input type="textarea" placeholder="Напишіть Ваше повідомлення" name="textarea" required>
+                </label><br>
+                <label>
+                    <input type="submit">
+                </label> 
+            </div>
+        </div>
     </main>
     <footer>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </footer>
 </body>
 </html>
