@@ -18,12 +18,21 @@ header .logo img {
     padding: 30px;
 }
 
+
 header .menu-items a {
     display: block;
     text-decoration: none;
     color: var(--main-color);
     border: 1px solid transparent;
     padding: 5px;
- 
+}
 
+header .menu-items a:hover {
+    border: 1px solid var(--main-color)
+}
+
+/*burger menu */
+
+#burger-checkbox {
+    display: none;
 }
