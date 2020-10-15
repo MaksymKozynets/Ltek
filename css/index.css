@@ -43,17 +43,16 @@ header .menu-items a {
 
 }
 
-main .content .about-us {
-display: flex;
+main .about-us {
+display: grid;
+grid-template-columns: 1fr 1fr;
 padding-top: 90px;
+grid-gap: 5px;
 
 }
-main .content .about-us img {
-width: 100%;
-}
 
-.about-us {
-align-items: center
+.about-us img {
+    width: 100%;
 }
 
 .button-info {
@@ -78,7 +77,7 @@ align-items: center
         display: flex;
         align-items: center;
     }
-}
+
 @media (min-width:660px) {
     .project-list {
         display: grid;
